@@ -1,0 +1,42 @@
+body{
+    text-align: center;
+    background-image: url(bryan-goff-f7YQo-eYHdM-unsplash.jpg);
+    background-size: cover;
+    font-family: 'Orbitron', sans-serif;
+
+}
+
+#container{
+    background-image: url(giphy.gif);
+    background-size: cover;
+    width: 500px;
+    margin: 50px auto;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: aqua;
+}
+
+.text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+input{
+    border-radius: 15px;
+    text-align: center;
+}
+
+#box{
+    margin: 20px 0px;
+}
+
+#btn{
+    background-color: aqua;
+    color: blueviolet;
+    padding: 10px 15px;
+    margin-bottom: 20px;
+}
